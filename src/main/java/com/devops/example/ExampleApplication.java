@@ -14,7 +14,6 @@ import java.util.logging.Logger;
 
 
 @SpringBootApplication
-@RestController
 @Slf4j
 public class ExampleApplication implements CommandLineRunner {
 
