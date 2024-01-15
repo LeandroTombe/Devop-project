@@ -25,7 +25,10 @@ public class ExampleApplication implements CommandLineRunner {
 		return "Welcome to devops project";
 	}
 
-
+	public static void main(String[] args) {
+		log.info("it's continues integration job");
+		SpringApplication.run(ExampleApplication.class, args);
+	}
 
 	@Override
 	public void run(String... args) throws Exception {
